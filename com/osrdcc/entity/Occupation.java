@@ -1,11 +1,11 @@
 package com.osrdcc.entity;
 
 public class Occupation {
-    private int roll;
-    private String occupation;
-    private Weapons trained_weapon;
-    private String trade_goods;
-    private int quantity;
+    private final int roll;
+    private final String occupation;
+    private final Weapons trained_weapon;
+    private final String trade_goods;
+    private final int quantity;
     public Occupation(int roll, String occupation, Weapons trained_weapon, String trade_goods, Integer quantity) {
         this.roll = roll;
         this.occupation = occupation;
