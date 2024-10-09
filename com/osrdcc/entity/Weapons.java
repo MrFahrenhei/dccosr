@@ -1,4 +1,4 @@
-package com.ddcrpg.entity;
+package com.osrdcc.entity;
 
 public class Weapons {
     private final String name;
