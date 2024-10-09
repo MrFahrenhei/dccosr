@@ -14,14 +14,5 @@ public class Main {
         Character hero = new Warrior("Takito",18, 14, 18, 16, 11, 10);
         hero.setOccupation(alchemist);
         System.out.println(hero);
-        try (Connection conn = ConnectionController.connect()) {
-            if (conn != null) {
-                System.out.println("connectado ao taiago!");
-            } else {
-                System.out.println("Não foi!.");
-            }
-        } catch (Exception e) {
-            System.err.println("Error: " + e.getMessage());
-        }
     }
 }
