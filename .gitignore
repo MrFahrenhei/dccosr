@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 # Default ignored files
 /shelf/
 /workspace.xml
 .idea/
+=======
+.idea
+*.class
+>>>>>>> 05d53ab (Projetos)
