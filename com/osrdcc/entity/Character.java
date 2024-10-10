@@ -96,9 +96,9 @@ public class Character {
         StringBuilder sb = new StringBuilder();
         sb.append("Hero: ").append(name)
                 .append(", HP: ").append(maxHP)
-                .append(", Coins: ").append(cooperPieces)
-                .append(", Occupation: ").append(occupation.getOccupation())
-                .append(", Weapon name: ").append(occupation.getTrainedWeapon());
+                .append(", Coins: ").append(cooperPieces);
+//                .append(", Occupation: ").append(occupation.getOccupation());
+//                .append(", Weapon name: ").append(occupation.getTrainedWeapon());
         return sb.toString();
     }
 }

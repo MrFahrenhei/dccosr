@@ -41,3 +41,15 @@ CREATE TABLE IF NOT EXISTS `weapon`
 
 ALTER TABLE `weapon`
     ADD CONSTRAINT `weapong_idfk_1` FOREIGN KEY (`item_id`) REFERENCES `item` (`item_id`);
+
+CREATE TABLE IF NOT EXISTS `occupation`
+(
+    `occupation_id` INT NOT NULL AUTO_INCREMENT,
+    `roll` INT NOT NULL,
+    `occupation` VARCHAR(255) NOT NULL,
+    `trained_weapon` VARCHAR(255) NOT NULL,
+    `trade_goods`   VARCHAR(255) NOT NULL,
+    `dt_insert` DATETIME,
+    PRIMARY KEY (`occupation_id`)
+) ENGINE = InnoDB
+DEFAULT CHARSET = latin1;
